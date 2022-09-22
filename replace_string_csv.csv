@@ -1,0 +1,28 @@
+#=============================
+# CSV ファイル仕様
+#  文字コード：SJIS
+#  　区切文字：TAB
+# 
+# ヘッダー仕様
+#     File　 ：ファイル名　※置換後上書き保存
+#     Target ：置換前（正規表現）
+#     After  ：置換後
+#=============================
+File	Target	After
+dat\a1.txt	abc	ABC
+dat\a1.txt	123	132
+dat\a1.txt	string	文字列
+dat\a1.txt	.*-Csv	XYZ
+# ============================
+dat\a2.txt	abc	ABC
+dat\a2.txt	123	132
+dat\a2.txt	string	文字列
+dat\a2.txt	xyz	XYZ112233
+# ============================
+dat\a3.txt	abc	ABC
+dat\a3.txt	123	132
+dat\a3.txt	string	文字列
+dat\a3.txt	xyz	XYZXYZ
+# ============================
+# コメント
+# ============================
